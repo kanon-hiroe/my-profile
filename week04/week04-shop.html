@@ -8,18 +8,19 @@
   </head>
   <body>
     <header class="sticky top-0 z-[99] bg-white border-b border-black">
-        <div class="flex justify-between items-center max-w-6xl mx-auto px-8 py-4">
+        <div class="flex justify-between items-center max-w-6xl mx-auto px-4 py-4 sm:px-8">
             <h1 class="text-xl font-bold"><a href="#">Stationery Shop</a></h1>
-            <nav>
+            <nav class="hidden sm:block">
                 <ul class="flex gap-6 text-slate-700 text-sm">
                     <li><a href="#" class="hover:opacity-60 transition">PRODUCTS</a></li>
                     <li><a href="#" class="hover:opacity-60 transition">ABOUT</a></li>
                     <li><a href="#" class="hover:opacity-60 transition">CONTACT</a></li>
                 </ul>
             </nav>
+            <div class="w-6 h-2 border-y-2 border-black cursor-pointer sm:hidden"></div>
         </div>
     </header>
-    <main class="max-w-6xl mx-auto px-8">
+    <main class="max-w-6xl mx-auto px-4 sm:px-8">
         <h1 class="mt-10 mb-8 text-center font-bold">
             <span class="block text-4xl tracking-wider">PRODUCTS</span>
             <span class="block mt-2 text-lg text-gray-600">商品一覧</span>
